@@ -414,3 +414,7 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+
+# System Properties
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.fdsan=warn_once
